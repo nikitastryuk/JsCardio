@@ -1,4 +1,4 @@
-/* CHALLENGE 1: REVERSE A STRING | INTEGER
+/* CHALLENGE: REVERSE A STRING | INTEGER
 Return a string in reverse
 reverseString('hello') === 'olleh' | reverseInt(521) === 125
 */

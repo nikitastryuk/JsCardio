@@ -1,4 +1,4 @@
-/* CHALLENGE 4: CAPITALIZE LETTERS
+/* CHALLENGE: CAPITALIZE LETTERS
 Return a string with the first letter of every word capitalized
 capitalizeLetters('i love javascript') === 'I Love Javascript'
 */

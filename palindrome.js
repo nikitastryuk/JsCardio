@@ -1,4 +1,4 @@
-/* CHALLENGE 2: VALIDATE A PALINDROME
+/* CHALLENGE: VALIDATE A PALINDROME
 Return true if palindrome and false if not
 isPalindrome('racecar') === true, isPalindrome('hello') == false
 */
