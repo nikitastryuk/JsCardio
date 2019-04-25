@@ -4,7 +4,7 @@ isPalindrome('racecar') === true, isPalindrome('hello') == false
 */
 
 function isPalindrome(str) {
-  return str.split('').reverse().join('') === str
+  return str.split('').reverse().join('') === str;
 
   ///////////////////////
 

@@ -39,18 +39,6 @@ function chunkArray(arr, chunkLength) {
 }
 
 function flattenArray(arrays) {
-  // return arrays.reduce((a, b) => a.concat(b), []);
-
-  ////////////////////////////
-
-  // return [].concat.apply([], arrays);
-
-  ////////////////////////////
-
-  return [].concat(...arrays);
-
-  ////////////////////////////
-
   // Deep
-  //return arr1.reduce((acc, val) => Array.isArray(val) ? acc.concat(flattenDeep(val)) : acc.concat(val), []);
+  return arr1.reduce((acc, val) => Array.isArray(val) ? acc.concat(flattenArray(val)) : acc.concat(val), []);
 }
